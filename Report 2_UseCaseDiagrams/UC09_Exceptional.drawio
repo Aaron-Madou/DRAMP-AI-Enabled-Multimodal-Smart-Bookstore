@@ -1,0 +1,98 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="GI5vRo2itybcUMroO16Y">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="400" pageHeight="200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="P7CR2OaEiq16u071vWs5-79" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;labelPerimeter=1;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="1675" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="P7CR2OaEiq16u071vWs5-80" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;" value="Add Book&amp;nbsp;&lt;div&gt;UI&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="100" x="1810" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="P7CR2OaEiq16u071vWs5-81" parent="1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="95" x="1705" y="1076" as="geometry" />
+        </mxCell>
+        <mxCell id="P7CR2OaEiq16u071vWs5-82" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=4;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;1. Open Add Book&lt;/font&gt;">
+          <mxGeometry relative="1" width="80" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1710" y="1060" as="sourcePoint" />
+            <mxPoint x="1800" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P7CR2OaEiq16u071vWs5-83" parent="1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="120" x="1910" y="1076" as="geometry" />
+        </mxCell>
+        <mxCell id="P7CR2OaEiq16u071vWs5-84" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=4;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="&lt;font size=&quot;1&quot;&gt;3/8b. Submit Book Data&lt;/font&gt;">
+          <mxGeometry relative="1" width="80" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1920" y="1060" as="sourcePoint" />
+            <mxPoint x="2020" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P7CR2OaEiq16u071vWs5-85" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" value="Catalog&lt;div&gt;Controller&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="70" x="2035" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="P7CR2OaEiq16u071vWs5-93" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=4;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;fontSize=12;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;2. Fill Out&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Book Details&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;7b. Confirm Change&lt;/font&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1720" y="1140" as="sourcePoint" />
+            <mxPoint x="1800" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P7CR2OaEiq16u071vWs5-96" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=4;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="&lt;font size=&quot;1&quot;&gt;9b. Write Book into Catalog File&lt;/font&gt;">
+          <mxGeometry relative="1" width="80" x="-0.0714" y="12" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2120" y="1060" as="sourcePoint" />
+            <mxPoint x="2260" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P7CR2OaEiq16u071vWs5-97" parent="1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;flipV=1;legacyAnchorPoints=0;flipH=0;direction=south;" value="" vertex="1">
+          <mxGeometry height="120" width="40" x="2050" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="P7CR2OaEiq16u071vWs5-98" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;fontSize=10;" value="&amp;nbsp;5b. Match&amp;nbsp;&lt;div&gt;Found&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="0.4588" y="40" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2090" y="928" as="sourcePoint" />
+            <mxPoint x="2090" y="1013" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P7CR2OaEiq16u071vWs5-99" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;fontSize=10;" value="&lt;div&gt;4b.Check&lt;/div&gt;&lt;div&gt;For Duplicate&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="-0.2632" y="40" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2050" y="1015" as="sourcePoint" />
+            <mxPoint x="2050" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P7CR2OaEiq16u071vWs5-103" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=4;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;fontSize=12;" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;4a. Missing or Invalid&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Arguments&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;6b. Prompt Duplicate&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;Confirmation&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;11b. Show Confirmation &amp;amp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Update Browse List&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="-0.0004" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2018.5" y="1180" as="sourcePoint" />
+            <mxPoint x="1921.5" y="1180.19" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P7CR2OaEiq16u071vWs5-104" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=4;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;fontSize=12;" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;10b. Book Saved&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" x="-0.0769" y="30" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2250" y="1100" as="sourcePoint" />
+            <mxPoint x="2120" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P7CR2OaEiq16u071vWs5-105" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" value="Book&amp;nbsp;&lt;div&gt;Catalog&lt;/div&gt;&lt;div&gt;File&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="2025" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="P7CR2OaEiq16u071vWs5-113" edge="1" parent="1" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="P7CR2OaEiq16u071vWs5-105" value="">
+          <mxGeometry relative="1" width="100" x="-0.7338" as="geometry">
+            <Array as="points">
+              <mxPoint x="2280" y="1076" />
+              <mxPoint x="2280" y="990" />
+              <mxPoint x="2280" y="870" />
+            </Array>
+            <mxPoint x="2105" y="1076" as="sourcePoint" />
+            <mxPoint x="2230" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,89 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="GI5vRo2itybcUMroO16Y">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="50" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c0P7uDlQlp_X4H5iLDRM-6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="c0P7uDlQlp_X4H5iLDRM-7" parent="1" style="shape=umlBoundary;whiteSpace=wrap;html=1;" value="Top Page&amp;nbsp;&lt;div&gt;View&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="100" x="240" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="c0P7uDlQlp_X4H5iLDRM-8" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="1. Open Top Page">
+          <mxGeometry relative="1" width="80" x="0.125" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="135" y="280" as="sourcePoint" />
+            <mxPoint x="215" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c0P7uDlQlp_X4H5iLDRM-11" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="300" as="sourcePoint" />
+            <mxPoint x="230" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c0P7uDlQlp_X4H5iLDRM-13" parent="1" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fontSize=10;" value="Book Selection&lt;div&gt;Control&lt;/div&gt;" vertex="1">
+          <mxGeometry height="91.43" width="80" x="450" y="248.57" as="geometry" />
+        </mxCell>
+        <mxCell id="c0P7uDlQlp_X4H5iLDRM-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="2. Load Top&lt;div&gt;Page&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="0.125" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="350" y="280" as="sourcePoint" />
+            <mxPoint x="430" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c0P7uDlQlp_X4H5iLDRM-17" parent="1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="110" x="340" y="296" as="geometry" />
+        </mxCell>
+        <mxCell id="c0P7uDlQlp_X4H5iLDRM-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="6. Display Books">
+          <mxGeometry relative="1" width="80" x="-0.125" y="30" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="435" y="320" as="sourcePoint" />
+            <mxPoint x="355" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c0P7uDlQlp_X4H5iLDRM-19" parent="1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;direction=south;" value="" vertex="1">
+          <mxGeometry height="110" width="8" x="486" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="c0P7uDlQlp_X4H5iLDRM-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="3. Check User&lt;br&gt;&lt;div&gt;&amp;amp; History&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="0.375" y="-40" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="470" y="355" as="sourcePoint" />
+            <mxPoint x="470" y="435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c0P7uDlQlp_X4H5iLDRM-21" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" value="User&lt;div&gt;Account DB&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="450" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="c0P7uDlQlp_X4H5iLDRM-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="4a. 3 Personalized&amp;nbsp;&lt;div&gt;Books (RC/VC)&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="-0.375" y="-60" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="510" y="435" as="sourcePoint" />
+            <mxPoint x="510" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c0P7uDlQlp_X4H5iLDRM-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="4b. Get Popular&amp;nbsp;&lt;div&gt;Books&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="0.125" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="545" y="280" as="sourcePoint" />
+            <mxPoint x="625" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c0P7uDlQlp_X4H5iLDRM-25" parent="1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="110" x="530" y="296" as="geometry" />
+        </mxCell>
+        <mxCell id="c0P7uDlQlp_X4H5iLDRM-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;edgeStyle=sequenceEdgeStyle;libavoidRouting=0;curved=0;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;" value="5. 3 Popular Books">
+          <mxGeometry relative="1" width="80" x="-0.125" y="30" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="620" y="320" as="sourcePoint" />
+            <mxPoint x="540" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c0P7uDlQlp_X4H5iLDRM-27" parent="1" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" value="Book&amp;nbsp;&lt;div&gt;Catalog&amp;nbsp;&lt;div&gt;DB&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="640" y="260" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
